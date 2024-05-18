@@ -1,51 +1,56 @@
-h1 {
-    color: rgb(73, 73, 73);
-    font-family: "Helvetica Neue", Helvetica, "Trebuchet MS", Verdana, sans-serif;
-    font-size : 70px
-
-
-}
-
-p, li {
-    font-family: "Trebuchet MS", Verdana, sans-serif;
-    font-size : 20px;
-    background-color: rgba(253, 253, 253,0.9);
-    border-radius: 6px;
-    margin-left: 1%;
-    margin-right: auto;
-    width: max-content;
-
-
-}
-p:hover{
-    background-color: rgba(253, 253, 253,1);
-
-}
-.centre {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    line-height : 130%;
-
-}
-
-h3 {
-    margin-left: 200px;
-    font-size : 20px;
-}
 body{
-    background : url(assets/background.jpg);
-    
-    
-    background-attachment: fixed;
-}
+    background-color :rgb(177, 177, 177)
 
-.button{
-    width: 120px;
-    height: 60px;
-    font-size: 15px;
+
 
 }
+
+
+
+h1 {
+    color: rgb(0,0,0);
+    font-family: "Courier New", monospace;
+    font-size : 40px;
+    line-height: 0;
+    
+
+
+
+
+}
+
+
+
+
+h2{
+    line-height: 2;
+    color: grey;
+    font-size: 20px;
+
+}
+p{
+font-size : 18px;
+line-height: 170%;
+    
+}
+
+.corp{
+    margin: auto;
+    width: 1200px;
+    margin-top: 100px;
+    background-color: rgb(255, 255, 255);
+    
+
+}
+.text-holder{
+    margin: auto;
+    width: 95%;
+    margin-top: 2.5%;
+
+
+}
+
+
 .infobulle .infobulletexte{
     
     visibility: hidden;
@@ -76,53 +81,34 @@ body{
 
 .infobulle:hover{
     color: rgb(255, 255, 0);
-
-}
-
-table{
-    margin-left: 40%;
-    
-
-
 }
 
 .encadre{
-    border: 6px  double black;
-
-}
-.sommaire .encadre{
     margin-left: 0%;
     font-family: "Trebuchet MS", Verdana, sans-serif;
     font-size : 17px;
-   
+    transition: margin-top 2s;
     opacity: 0.9;
+    visibility: hidden;
+    position : absolute;
 
+    margin-top: -40px;
+    
 
 }
 
-.sommaire .encadre:hover{
+.sommaire:hover .encadre{
    
     opacity: 1;
-    background-color: rgb(44, 143, 150);;
+    
+    visibility: visible;
+    margin-top: 0px;
+    
 
 }
-.sommaire{
-    margin-left: 2%;
-}
-
-h2{
-    font-family: Verdana;
-    font-size : 30px;
-
-}
-.annonce{
-    width: 200px;
-    height: 200px;
-
-}
-
-.annonce:hover{
-    width: 300px;
-    height: 300px;
-
+.sommaire>h3{
+    
+    background-color: rgb(197, 197, 197);
+    width: max-content;
+    border-radius: 10px;
 }
