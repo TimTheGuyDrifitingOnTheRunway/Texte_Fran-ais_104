@@ -115,6 +115,11 @@ line-height: 170%;
 .sommaire>h3{
     z-index: 2;
     background-color: rgb(197, 197, 197);
-    width: 22em;
+    width: 15em;
     border-radius: 10px;
+}
+
+.poeme_centre{
+    text-align: center;
+
 }
