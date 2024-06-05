@@ -71,6 +71,7 @@ line-height: 170%;
 .infobulle:hover .infobulletexte{
 
     visibility: visible;
+    line-height: normal;
     
     
 }
